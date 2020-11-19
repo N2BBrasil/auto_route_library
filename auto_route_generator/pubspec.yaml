@@ -12,7 +12,12 @@ dependencies:
   analyzer: ">=0.40.0 <2.0.0"
   path: ^1.6.4
   build_runner: ^1.10.1
-  auto_route: ^0.6.9
+  auto_route:
+    git:
+
+      url: git@github.com:N2BBrasil/auto_route_library.git
+      ref: master
+      path: ./auto_route
 #    path: ../auto_route
 
 dev_dependencies:
